@@ -19,7 +19,6 @@ function managerProcess() {
 function workerProcess() {
   // This is the worker!
   const phin = require("phin")
-  const cheerio = require("cheerio")
   
   setInterval(60000, async () => {
     try {
